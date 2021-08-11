@@ -52,7 +52,7 @@ export function RegisterLoginData() {
     const newLoginData = {
       id: String(uuid.v4()),
       ...formData
-    }
+    };
 
     const dataKey = '@savepass:logins';
     
